@@ -41,13 +41,14 @@ export const translations = {
       s4Tags: ['Sesión de 60 min', 'Presencial u Online', '$50 USD / hora']
     },
     projects: {
-      tag: 'PROYECTOS',
-      title: 'Proyecto Destacado',
-      subtitle: 'Desarrollo de software y arquitectura móvil multiplataforma.',
-      featuredBadge: 'PROYECTO PRINCIPAL (KMP)',
-      viewDetails: 'Ver Detalle del Proyecto →',
-      repository: 'Ver Código GitHub',
-      biwekiDesc: 'Aplicación móvil multiplataforma de gestión financiera y seguimiento personal. Desarrollada con Kotlin Multiplatform (KMP), UI nativa e integración con Supabase.'
+      tag: 'PORTFOLIO & TRABAJOS DESTACADOS',
+      title: 'Featured Work & Collaborations',
+      subtitle: 'Desarrollos recientes orientados a producto, rendimiento y valor real de negocio para clientes y sistemas multiplataforma.',
+      liveDemo: 'Live Demo / Site',
+      repository: 'Código GitHub',
+      privateRepo: 'Repo Privado (Cliente)',
+      inProgress: 'En Desarrollo',
+      live: 'Live'
     },
     techStack: {
       tag: 'STACK TÉCNICO',
@@ -150,13 +151,14 @@ export const translations = {
       s4Tags: ['60 Min Session', 'In-Person or Online', '$50 USD / hour']
     },
     projects: {
-      tag: 'PROJECTS',
-      title: 'Featured Project',
-      subtitle: 'Software engineering and cross-platform mobile architecture.',
-      featuredBadge: 'FEATURED KMP PROJECT',
-      viewDetails: 'View Project Details →',
-      repository: 'View GitHub Repo',
-      biwekiDesc: 'Cross-platform mobile personal finance management app. Built with Kotlin Multiplatform (KMP), native UI, and Supabase integration.'
+      tag: 'FEATURED WORK & DELIVERABLES',
+      title: 'Featured Work & Collaborations',
+      subtitle: 'Recent product-driven developments, multiplatform systems, and high-impact digital solutions for clients and open source.',
+      liveDemo: 'Live Demo / Site',
+      repository: 'GitHub Repo',
+      privateRepo: 'Private Repo (Client IP)',
+      inProgress: 'In Progress',
+      live: 'Live'
     },
     techStack: {
       tag: 'TECH STACK',

@@ -4,7 +4,7 @@ import { LanguageProvider } from './context/LanguageContext';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Services } from './components/Services';
-import { ProjectsShowcase } from './components/ProjectsShowcase';
+import { FeaturedWork } from './components/FeaturedWork';
 import { TechStack } from './components/TechStack';
 import { Methodology } from './components/Methodology';
 import { ProjectWizardModal } from './components/ProjectWizardModal';
@@ -22,7 +22,7 @@ export function AppContent() {
       <main className="relative z-10">
         <Hero onOpenWizard={() => setWizardOpen(true)} />
         <Services onOpenWizard={() => setWizardOpen(true)} />
-        <ProjectsShowcase />
+        <FeaturedWork />
         <TechStack />
         <Methodology />
       </main>

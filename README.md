@@ -24,7 +24,7 @@ El sitio ha sido diseñado con un enfoque de ingeniería de producto moderno (es
   - 💻 **Desarrollo Web & Integración Cloud**: React, TypeScript, Node.js y Supabase / SQL.
   - 📈 **Posicionamiento SEO / SEM & Google Business Profile**: Optimización orgánica, campañas SEM y gestión de fichas locales.
   - 💡 **Consultoría Técnica 1:1 ($50 USD / h)**: Reserva de sesiones de 60 min (Presenciales u Online) para revisión de arquitectura, código y viabilidad de proyectos.
-- 📱 **Proyecto Destacado Real**: Presentación arquitectónica de **Biweki KMP** (App móvil multiplataforma de finanzas personales).
+- 🚀 **Featured Work & Collaborations**: Cuadrícula de proyectos y desarrollos comerciales con tipado desacoplado (Biweki, JackyHer Bags, J. Velasco Portfolio, Healthy Heaven).
 - 🧭 **Metodología & Ejecución**: Bloque estructurado de principios de desarrollo (Arquitectura Limpia & Modular, Desarrollo Orientado a Producto, Rendimiento & Disciplina).
 - 🌐 **Soporte Bilingüe Completo (Español / Inglés)**: Alternancia instantánea de idioma gestionada a través de React Context API.
 - 📬 **Envío Directo de Formulario a Correo Personal**: Procesamiento AJAX seguro con sanitización de entradas.
@@ -59,19 +59,21 @@ portfolio-dev/
 │   │   ├── Navbar.jsx           <-- Cabecera, navegación, idioma, tema e icono de audio
 │   │   ├── Hero.jsx             <-- Portada principal, biografía y enlaces
 │   │   ├── Services.jsx         <-- Tarjetas de servicios (Mobile, Web, SEO, Consultoría)
-│   │   ├── ProjectsShowcase.jsx <-- Ficha del proyecto principal Biweki KMP
+│   │   ├── FeaturedWork.jsx     <-- Sección 'Featured Work & Collaborations' (Grid de proyectos)
 │   │   ├── TechStack.jsx        <-- Badges de tecnologías categorizados con Devicons
 │   │   ├── Methodology.jsx      <-- Principios de ingeniería y ejecución (Limpia, Producto, Rendimiento)
 │   │   ├── AmbientPlayer.jsx    <-- Botón compacto de reproducción musical (On/Off)
 │   │   ├── SpotlightCard.jsx    <-- Tarjeta estilo shadcn con micro-hover
-│   │   ├── ProjectModal.jsx     <-- Modal de detalles de arquitectura
 │   │   ├── ProjectWizardModal.jsx <-- Asistente modal de cotizaciones y envío a ProtonMail
 │   │   └── Footer.jsx           <-- Pie de página y enlaces a redes
 │   ├── context/
 │   │   ├── ThemeContext.jsx     <-- Control de Modo Claro / Modo Oscuro
 │   │   └── LanguageContext.jsx  <-- Control de idioma Español / Inglés
 │   ├── data/
+│   │   ├── projects.js          <-- Modelo de datos desacoplado de proyectos
 │   │   └── translations.js      <-- Diccionario bilingüe desacoplado
+│   ├── types/
+│   │   └── project.ts           <-- Definiciones de tipos TypeScript
 │   ├── App.jsx                  <-- Layout principal
 │   ├── main.jsx                 <-- Punto de entrada de React
 │   └── index.css                <-- Sistema de diseño CSS, variables y clases
