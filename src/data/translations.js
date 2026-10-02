@@ -41,12 +41,13 @@ export const translations = {
       s4Tags: ['Sesión de 60 min', 'Presencial u Online', '$50 USD / hora']
     },
     projects: {
-      tag: 'PORTFOLIO & TRABAJOS DESTACADOS',
-      title: 'Featured Work & Collaborations',
-      subtitle: 'Desarrollos recientes orientados a producto, rendimiento y valor real de negocio para clientes y sistemas multiplataforma.',
+      tag: 'PORTFOLIO & PROYECTOS',
+      title: 'Proyectos y Colaboraciones',
+      subtitle: 'Desarrollos de software, aplicaciones multiplataforma y soluciones digitales con impacto real en negocio y rendimiento.',
       liveDemo: 'Live Demo / Site',
+      viewMaps: 'Ver en Google Maps',
       repository: 'Código GitHub',
-      privateRepo: 'Repo Privado (Cliente)',
+      privateRepo: 'Repo Privado',
       inProgress: 'En Desarrollo',
       live: 'Live'
     },
@@ -151,10 +152,11 @@ export const translations = {
       s4Tags: ['60 Min Session', 'In-Person or Online', '$50 USD / hour']
     },
     projects: {
-      tag: 'FEATURED WORK & DELIVERABLES',
-      title: 'Featured Work & Collaborations',
-      subtitle: 'Recent product-driven developments, multiplatform systems, and high-impact digital solutions for clients and open source.',
+      tag: 'FEATURED PROJECTS & DELIVERABLES',
+      title: 'Featured Projects & Collaborations',
+      subtitle: 'Recent product-driven developments, multiplatform systems, and high-impact digital solutions built for real-world performance.',
       liveDemo: 'Live Demo / Site',
+      viewMaps: 'View on Maps',
       repository: 'GitHub Repo',
       privateRepo: 'Private Repo (Client IP)',
       inProgress: 'In Progress',

@@ -5,19 +5,32 @@
 /** @type {Project[]} */
 export const projects = [
   {
+    id: 'doblaje',
+    title: 'Tu Camino al Doblaje',
+    category: 'Client Project',
+    year: '2025',
+    status: 'Live',
+    description: {
+      es: 'Plataforma de reservas de alta concurrencia con gestión atómica de cupos en Supabase y pasarela automatizada con Stripe Webhooks.',
+      en: 'High-converting booking platform featuring atomic slot inventory via Supabase and automated payments with Stripe Webhooks.'
+    },
+    tags: ['Next.js', 'TypeScript', 'Supabase', 'Stripe API', 'Tailwind CSS', 'Cloudflare'],
+    liveUrl: 'https://doblaje.sebastianreggio.com',
+    linkType: 'web',
+    isPrivate: true
+  },
+  {
     id: 'biweki',
     title: 'Biweki',
-    category: 'Mobile / Multiplatform',
+    category: 'Mobile & Multiplatform',
     year: '2025',
     status: 'In Progress',
     description: {
-      es: 'App móvil de finanzas personales multiplataforma con lógica compartida, persistencia cloud en tiempo real y asistencia inteligente.',
-      en: 'Cross-platform personal finance mobile app with shared domain architecture, real-time cloud data, and intelligent insights.'
+      es: 'App móvil multiplatforma de finanzas personales con seguimiento inteligente de ingresos/gastos y asistencia basada en IA.',
+      en: 'Cross-platform personal finance mobile app featuring smart expense tracking, real-time sync, and AI-driven insights.'
     },
-    tags: ['Kotlin Multiplatform', 'Compose', 'SwiftUI', 'Supabase', 'AI / LLM'],
-    githubUrl: 'https://github.com/Carllos22',
-    isPrivate: false,
-    featured: true
+    tags: ['Kotlin Multiplatform', 'Compose Multiplatform', 'Supabase', 'AI Integration'],
+    isPrivate: true
   },
   {
     id: 'jackyher-bags',
@@ -26,45 +39,42 @@ export const projects = [
     year: '2025',
     status: 'Live',
     description: {
-      es: 'Tienda e-commerce y vitrina digital de marroquinería con CMS headless, navegación fluida y optimización para conversión.',
-      en: 'High-end leather goods e-commerce and digital showcase engineered with Headless CMS, fluid UI, and conversion optimization.'
+      es: 'E-commerce y catálogo interactivo para marca de moda artesanal, construido con arquitectura headless orientada a rendimiento y SEO.',
+      en: 'Artisan e-commerce storefront powered by a headless CMS architecture (Sanity.io), optimized for speed and SEO.'
     },
-    tags: ['Next.js', 'Sanity.io', 'Tailwind CSS', 'TypeScript', 'Structured SEO'],
-    demoUrl: 'https://jackyherbags.com',
-    githubUrl: null,
-    isPrivate: true,
-    featured: true
+    tags: ['Next.js', 'Sanity.io', 'Tailwind CSS', 'Vercel', 'Schema.org'],
+    liveUrl: 'https://www.jackyherbags.com/',
+    linkType: 'web',
+    isPrivate: true
   },
   {
-    id: 'j-velasco',
-    title: 'J. Velasco Portfolio',
+    id: 'j-velasco-tattoo',
+    title: 'J. Velasco Tattoo',
     category: 'Client Project',
     year: '2025',
     status: 'Live',
     description: {
-      es: 'Plataforma web de exhibición visual y gestión de reservas para artista, construida para máxima velocidad de carga y SEO.',
-      en: 'Visual showcase platform and booking workflow for contemporary artist, optimized for ultra-fast performance and discoverability.'
+      es: 'Sitio web showcase y pasarela de reservas para artista de tatuaje en Barcelona, optimizado para conversión móvil y velocidad.',
+      en: 'Showcase portfolio and booking system for a Barcelona tattoo artist, optimized for mobile conversion and fast loading.'
     },
-    tags: ['Next.js', 'Vercel', 'Tailwind CSS', 'TypeScript', 'Web Optimization'],
-    demoUrl: 'https://jvelasco.art',
-    githubUrl: null,
-    isPrivate: true,
-    featured: false
+    tags: ['Next.js', 'Supabase', 'Tailwind CSS', 'Vercel'],
+    liveUrl: 'https://www.jvelasco.online/',
+    linkType: 'web',
+    isPrivate: true
   },
   {
     id: 'healthy-heaven',
-    title: 'Healthy Heaven',
-    category: 'Client Project',
+    title: 'Healthy Heaven Coffee Shop',
+    category: 'SEO & Consulting',
     year: '2024',
     status: 'Live',
     description: {
-      es: 'Optimización web de marca gastronómica saludable con estrategia de SEO local, schema markup estructurado y captación.',
-      en: 'Healthy culinary brand web platform optimized with local SEO, rich structured schema markup, and inbound customer funnels.'
+      es: 'Optimización técnica web, auditoría de presencia digital y arquitectura de microdatos JSON-LD para posicionamiento y captación local.',
+      en: 'Technical web performance tuning, local SEO strategy, and structured schema implementation to drive foot traffic.'
     },
-    tags: ['Next.js', 'Local SEO', 'Schema Markup', 'Tailwind CSS', 'Analytics'],
-    demoUrl: 'https://healthyheaven.es',
-    githubUrl: null,
-    isPrivate: true,
-    featured: false
+    tags: ['Local SEO', 'JSON-LD Schema', 'Web Performance', 'Google Business Profile'],
+    liveUrl: 'https://maps.app.goo.gl/hNVQ5ceJFVRquwR48',
+    linkType: 'maps',
+    isPrivate: true
   }
 ];

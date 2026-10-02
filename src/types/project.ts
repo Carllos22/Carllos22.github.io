@@ -1,24 +1,25 @@
 export type ProjectCategory =
   | 'Client Project'
-  | 'Mobile / Multiplatform'
-  | 'Full Stack'
-  | 'Open Source';
+  | 'Mobile & Multiplatform'
+  | 'SEO & Consulting';
 
 export type ProjectStatus = 'Live' | 'In Progress';
+
+export type LinkType = 'web' | 'maps';
 
 export interface Project {
   id: string;
   title: string;
   category: ProjectCategory;
-  year: string;
-  status: ProjectStatus;
+  year?: string;
+  status?: ProjectStatus;
   description: {
     es: string;
     en: string;
   };
   tags: string[];
-  demoUrl?: string | null;
-  githubUrl?: string | null;
+  liveUrl?: string;
+  linkType?: LinkType;
+  githubUrl?: string;
   isPrivate?: boolean;
-  featured?: boolean;
 }
