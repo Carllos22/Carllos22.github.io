@@ -28,7 +28,7 @@ El sitio ha sido diseñado con un enfoque de ingeniería de producto moderno (es
 - 🧭 **Metodología & Ejecución**: Bloque estructurado de principios de desarrollo (Arquitectura Limpia & Modular, Desarrollo Orientado a Producto, Rendimiento & Disciplina).
 - 🌐 **Soporte Bilingüe Completo (Español / Inglés)**: Alternancia instantánea de idioma gestionada a través de React Context API.
 - 📬 **Envío Directo de Formulario a Correo Personal**: Procesamiento AJAX seguro con sanitización de entradas.
-- 🎵 **Widget de Audio Ambiental**: Reproducción/pausa de música de fondo (`/rock-suave.mp3`) con icono de nota musical interactivo en el Navbar.
+- 🎵 **Widget de Audio Ambiental**: Reproducción/pausa de música de fondo (`/Interstellar.mp3`) con icono de nota musical interactivo en el Navbar.
 
 ---
 
@@ -53,7 +53,7 @@ portfolio-dev/
 │   └── workflows/
 │       └── deploy.yml           <-- Flujo de despliegue automático de GitHub Actions
 ├── public/
-│   └── rock-suave.mp3           <-- Pista de audio ambiental
+│   └── Interstellar.mp3         <-- Pista de audio ambiental
 ├── src/
 │   ├── components/              <-- Componentes UI modulares
 │   │   ├── Navbar.jsx           <-- Cabecera, navegación, idioma, tema e icono de audio

@@ -3,7 +3,7 @@ import { Music } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 export const AmbientPlayer = () => {
-  const AUDIO_SRC = `${import.meta.env.BASE_URL}rock-suave.mp3`;
+  const AUDIO_SRC = `${import.meta.env.BASE_URL}Interstellar.mp3`;
 
   const [isPlaying, setIsPlaying] = useState(false);
   const [hasError, setHasError] = useState(false);
@@ -61,10 +61,10 @@ export const AmbientPlayer = () => {
         }`}
         title={
           hasError
-            ? "Error al cargar /rock-suave.mp3"
+            ? "Error al cargar /Interstellar.mp3"
             : isPlaying
-            ? (language === 'es' ? 'Pausar Música (/rock-suave.mp3)' : 'Pause Music (/rock-suave.mp3)')
-            : (language === 'es' ? 'Reproducir /rock-suave.mp3' : 'Play /rock-suave.mp3')
+            ? (language === 'es' ? 'Pausar Música (Interstellar)' : 'Pause Music (Interstellar)')
+            : (language === 'es' ? 'Reproducir Música (Interstellar)' : 'Play Music (Interstellar)')
         }
       >
         <Music className={`w-4 h-4 ${isPlaying ? 'animate-pulse text-amber-500' : ''}`} />
